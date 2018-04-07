@@ -7,3 +7,31 @@ Currently, Quora uses a Random Forest model to identify duplicate questions. In 
 
 https://www.kaggle.com/c/quora-question-pairs/
 
+#Feature_Engineering 
+Some basic features used are :
+Length of question1
+Length of question2
+Difference in the two lengths
+Character length of question1 without spaces
+Character length of question2 without spaces
+Number of words in question1
+Number of words in question2
+Number of common words in question1 and question2
+QRatio
+WRatio
+Partial ratio
+Partial token set ratio
+Partial token sort ratio
+Token set ratio
+Token sort ratio
+Tf-IDF and SVD features
+
+
+#MODEL
+My dominant model and final submission was a single XGBoost model with different features taking refrence from - 
+Referenced from : Abhishek_thakur quora_duplicate_question code.
+
+To Run : 
+Directly use jupyter notebooks as :
+1. feature notebook (ipynb files)
+2. xgboost notebbok
