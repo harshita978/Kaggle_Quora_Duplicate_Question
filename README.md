@@ -25,7 +25,7 @@ Partial token sort ratio
 Token set ratio
 Token sort ratio
 Tf-IDF and SVD features
-
+And the final feature vector could be extracted from the given link : https://drive.google.com/file/d/13ml5g59PDpqs6mX5WeBtqgCs_WdzmQW_/view?usp=sharing
 
 ## MODEL
 My dominant model and final submission is a single XGBoost model with different features taking refrence from - 
